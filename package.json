@@ -1,0 +1,13 @@
+{
+  "name": "studentid_comp3123_labtest1",
+  "version": "1.0.0",
+  "description": "COMP3123 Lab Test 1 template",
+  "private": true,
+  "scripts": {
+    "q1": "node src/q1_lowercaseWords.js",
+    "q2": "node src/q2_callbacks.js",
+    "addLogs": "node src/q3_addLogs.js",
+    "removeLogs": "node src/q3_removeLogs.js"
+  },
+  "license": "UNLICENSED"
+}
