@@ -1,7 +1,3 @@
-// Question 1: ES6 Features — lowerCaseWords
-// Create a function that returns a Promise, filters non-strings,
-// and lower-cases the remaining words.
-
 function lowerCaseWords(mixed) {
   return new Promise((resolve, reject) => {
     if (!Array.isArray(mixed)) {
@@ -22,5 +18,3 @@ lowerCaseWords(sample)
     console.log("Output:", result);
   })
   .catch((err) => console.error("Error:", err.message));
-
-module.exports = { lowerCaseWords };
